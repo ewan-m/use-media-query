@@ -1,6 +1,7 @@
 # use-media-query
 Custom hook to useMediaQuery in React components
 
+## Source code
 ```
 import { useState } from "react";
 
@@ -13,3 +14,7 @@ export const useMediaQuery = (query: string) => {
 	return matches;
 };
 ```
+
+## Example usage
+
+const isMobile = useMediaQuery("(max-width: 450px)");
