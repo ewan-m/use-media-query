@@ -17,4 +17,8 @@ export const useMediaQuery = (query: string) => {
 
 ## Example usage
 
+```
 const isMobile = useMediaQuery("(max-width: 450px)");
+```
+
+Full Web API docs - https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
